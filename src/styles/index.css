@@ -9,3 +9,41 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container-md{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.semaforo{
+    background-color: black;
+    display: inline-block;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+}  
+
+.luz{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.roja{
+    background-color: red;
+    border: 1px solid white
+}
+
+.amarilla{
+    background-color: yellow;
+    border: 1px solid white
+}
+
+.verde{
+    background-color: green;
+    border: 1px solid white
+}
+
+.brillo{
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
+}
